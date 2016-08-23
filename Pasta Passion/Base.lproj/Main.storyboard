@@ -91,12 +91,180 @@
                     <view key="view" contentMode="scaleToFill" id="Umx-Ku-Ied">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ONE POT ROASTED RED PEPPER PASTA" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AlJ-Ph-xqX">
+                                <frame key="frameInset" minX="76" minY="72" width="223" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="One-Pot-Roasted-Red-Pepper-Pasta-close" translatesAutoresizingMaskIntoConstraints="NO" id="327-6L-szv">
+                                <frame key="frameInset" minX="76" minY="117" width="224" height="153"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bTN-rs-5Lj">
+                                <frame key="frameInset" minX="16" minY="271" width="113" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Ingredients">
+                                    <color key="titleShadowColor" red="0.49803921569999998" green="0.54901960780000003" blue="0.55294117649999996" alpha="0.60204741380000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="HBa-dm-Lna" kind="show" id="U5W-gW-oGC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vp8-jD-xCu">
+                                <frame key="frameInset" minX="245" minY="270" width="114" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Instructions">
+                                    <color key="titleShadowColor" red="0.49803921569999998" green="0.54901960780000003" blue="0.55294117649999996" alpha="0.60204741380000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="mOm-qg-9nd" kind="show" id="QBB-NJ-ZRe"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W0g-yL-vSD">
+                                <frame key="frameInset" minX="16" minY="314" width="343" height="333"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">NOTES:
+
+Breaking the pasta in half helps the larger pieces of tomato and pepper stir in evenly with the pasta. It also helps allow the pasta to be submerged under the broth.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qv4-5b-p3m" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1076" y="850"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="keC-Im-7xe">
+            <objects>
+                <viewController id="HBa-dm-Lna" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WW8-ov-A7U"/>
+                        <viewControllerLayoutGuide type="bottom" id="Xmw-Uq-NYi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ns3-pO-Eqt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ingredients" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lSE-ZM-G2E">
+                                <frame key="frameInset" minX="94" minY="64" width="186" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Gd-Mp-aCR">
+                                <frame key="frameInset" minX="16" minY="114" width="343" height="463"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">• 5 cups vegetable broth $0.60
+• 1 lb. Fettuccine $1.00
+• 1 small Vidalia onion $0.61
+• 4 cloves garlic $0.32
+• 1 12oz. jar roasted red peppers $2.49
+• 1 15oz. can fire roasted diced tomatoes $1.29
+• ½ Tbsp dried basil $0.07
+• ¼ tsp crushed red pepper (optional) $0.03
+• Freshly cracked black pepper $0.05
+• 4 oz. cream cheese (optional) $1.08</mutableString>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SGw-4h-zoj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="1518"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="pj0-Pq-EGh">
+            <objects>
+                <viewController id="mOm-qg-9nd" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="upL-ec-7LV"/>
+                        <viewControllerLayoutGuide type="bottom" id="waB-0P-Dm5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TJS-ce-NtU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Instructions" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bd1-mK-2yv">
+                                <frame key="frameInset" minX="94" minY="64" width="186" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sKg-JT-VYw">
+                                <frame key="frameInset" minX="16" minY="114" width="343" height="502"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">1. Thinly slice the onion and mince the garlic. Remove the red peppers from the liquid in the jar and then slice them into thin strips.
+2. In a large pot, combine the broth, onion, garlic, red pepper slices, diced tomatoes (with juice), basil, crushed red pepper, and some freshly cracked black pepper (10-15 cranks of a pepper mill). Stir these ingredients to combine. Break the fettuccine in half, then add it to the pot, attempting to submerge the pieces as much as possible.
+3. Place a lid on the pot and turn the heat up to high. As soon as the pot reaches a full boil, give it a quick stir to loosen any pieces that may have stuck to the bottom, return the lid, and turn the heat down to medium-low.
+4. Let the pot simmer on medium low for 10-12 minutes, stirring every couple of minutes to make sure nothing sticks to the bottom. Return the lid as quickly as possible after each stir. After ten minutes, test the pasta to see if it is al dente. Once the pasta is tender, remove it from the heat. (If the pasta becomes too dry before it is tender, simply add a small amount of water and continue to simmer.)
+5. Divide the cream cheese into tablespoon sized pieces, then add them to the pot. Stir the pasta until the cheese melts in and creates a smooth sauce (it will look lumpy at first, just keep stirring). Serve hot.</mutableString>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1mY-x9-zmA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1932" y="1518"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="LMa-bQ-jPL">
+            <objects>
+                <viewController id="LCg-II-Sz1" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="J9d-2Z-BKv"/>
+                        <viewControllerLayoutGuide type="bottom" id="onD-Zj-T30"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="e8y-nN-XgL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Instructions" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="edS-aM-Jfa">
+                                <frame key="frameInset" minX="94" minY="72" width="186" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HGl-Td-DuO">
+                                <frame key="frameInset" minX="16" minY="122" width="343" height="502"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">1. Begin boiling a large pot of water for your pasta. Once the water is boiling, add the pasta and boil until al dente (7-10 minutes). Drain in a colander.
+2. While waiting for the water to boil, prepare the sauce. Mince two cloves of garlic and add them to a large skillet with one tablespoon of butter. Sauté over medium-low heat for 1-2 minutes, or just until the garlic is soft and fragrant.
+3. Add the pumpkin purée and chicken broth to the skillet and stir to combine. Add the nutmeg, chili powder, cayenne pepper, and some freshly cracked black pepper. Stir in the spices and let the sauce simmer over medium-low heat while the pasta cooks (about 10 minutes), stirring occasionally.
+4. Once the pasta is finished cooking and is draining in a colander, add the half and half or cream to the skillet and stir it into the pumpkin sauce. Taste the sauce and add salt if needed (this will depend on the type of broth you use). Finally, stir the drained pasta in to the sauce and serve.</mutableString>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eQt-TL-Xf8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1932" y="850"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="yfx-N3-LLK">
@@ -109,12 +277,319 @@
                     <view key="view" contentMode="scaleToFill" id="ETn-xL-o9D">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PASTA WITH CREAMY PUMPKIN SAUCE" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IHO-Bi-lff">
+                                <frame key="frameInset" minX="76" minY="72" width="223" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pasta-with-Creamy-Pumpkin-Sauce-skillet" translatesAutoresizingMaskIntoConstraints="NO" id="bxm-DZ-jwn">
+                                <frame key="frameInset" minX="76" minY="117" width="224" height="153"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0lX-Ty-mYw">
+                                <frame key="frameInset" minX="16" minY="271" width="113" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Ingredients">
+                                    <color key="titleShadowColor" red="0.49803921569999998" green="0.54901960780000003" blue="0.55294117649999996" alpha="0.60204741380000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="IBT-vt-b8p" kind="show" id="6aO-9M-8Te"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qy4-dz-Idb">
+                                <frame key="frameInset" minX="245" minY="270" width="114" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Instructions">
+                                    <color key="titleShadowColor" red="0.49803921569999998" green="0.54901960780000003" blue="0.55294117649999996" alpha="0.60204741380000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="LCg-II-Sz1" kind="show" id="dHR-Rm-TfU"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ldr-ZF-UL2">
+                                <frame key="frameInset" minX="16" minY="314" width="343" height="333"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">NOTES:
+
+*I use Better Than Bouillon to make my broth, which is less expensive than canned or boxed broths.
+
+**Chili powder is an earthy mild blend of spices, not ground spicy red peppers.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TaE-ej-jSz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1932" y="139"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Y3C-Ah-fqO">
+            <objects>
+                <viewController id="wKh-i8-f62" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nV2-hR-cRr"/>
+                        <viewControllerLayoutGuide type="bottom" id="LP2-KD-jv5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wYH-dT-A65">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ingredients" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PRM-Gc-bFB">
+                                <frame key="frameInset" minX="94" minY="72" width="186" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uzk-cU-fTV">
+                                <frame key="frameInset" minX="16" minY="122" width="343" height="463"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">• 1 Tbsp vegetable oil $0.02
+• ½ lb. smoked sausage (preferably Andouille) $3.67
+• 2 cloves garlic $0.16
+• 1 10oz. bag frozen "seasoning mix"* $1.39
+• 1 15oz. can diced tomatoes    $0.79
+• ½ Tbsp Creole seasoning** 0.15
+• ½ tsp oregano $0.05
+• ½ tsp smoked paprika $0.05
+• ¼ tsp thyme $0.02
+• Freshly cracked pepper $0.05
+• 2 cups chicken broth $0.24
+• 1 cup water $0.00
+• 1 lb. penne pasta $1.49
+• 2 Tbsp half &amp; half or cream $0.19
+• ½ bunch fresh parsley $0.45
+• ½ bunch green onions $0.38</mutableString>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="051-sT-yeR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2192.8000000000002" y="-1239.1304347826087"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="xvx-jB-UEt">
+            <objects>
+                <viewController id="9ms-G5-880" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vom-y3-kLA"/>
+                        <viewControllerLayoutGuide type="bottom" id="fnS-rf-0cz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7up-ig-VMS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Instructions" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mNI-WQ-o1n">
+                                <frame key="frameInset" minX="94" minY="72" width="186" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BZe-Dh-n74">
+                                <frame key="frameInset" minX="16" minY="122" width="343" height="502"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">1. Slice the smoked sausage into thin rounds, then cut any larger pieces in half. Add the sausage and vegetable oil to a large pot and cook over medium heat until the sausage is well browned (about 5 minutes).
+2. Mince two cloves of garlic and add them to the pot. Sauté for one to two minutes, or until the garlic is soft and fragrant. Add the bag of frozen seasoning mix and sauté until heated through (3-5 minutes). Finally, add the can of diced tomatoes (with juices), Creole seasoning, oregano, smoked paprika, thyme, freshly cracked pepper (about 20 cranks of a pepper mill), chicken broth, 1 cup of water, and pasta to the pot. Stir until everything is evenly combined.
+3. Place a lid on the pot and turn the heat up to medium-high. Let the pot come to a boil. As soon as it reaches a boil, remove the lid briefly to stir, then replace the lid, turn the heat down to low, and let the pot simmer for 12-15 minutes, or until the pasta is tender. Stir the pot once every few minutes as it simmers to prevent the pasta from sticking. Replace the lid as quickly as possible after stirring to avoid heat loss.
+4. While the pasta is simmering, pull the parsley leaves from the stems and give them a good chop, and slice the green onions. Once the pasta is tender, most of the liquid in the pot should be absorbed. If it's still a bit soupy, let the pot simmer for one to two minutes without the lid to allow some moisture to evaporate.
+5. Turn off the heat and stir in the half &amp; half or cream. Stir in most of the chopped parsley and green onions, reserving some to sprinkle over top. Serve hot with a pinch of fresh parsley and green onions on top of each bowl.</mutableString>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Qz-iv-o97" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2845.5999999999999" y="-1239.1304347826087"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Fo1-h9-K52">
+            <objects>
+                <viewController id="Fkm-AW-d0W" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3ya-gf-NhJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ve3-ey-qwF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1Wi-3v-wDe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Instructions" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BqQ-vb-f5x">
+                                <frame key="frameInset" minX="94" minY="64" width="186" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DQg-Wm-7Lb">
+                                <frame key="frameInset" minX="16" minY="114" width="343" height="502"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">1. Begin to boil a large pot of water to cook the pasta. When it reaches a full boil, add the pasta and cook for 7-10 minutes or until al dente. When the pasta is finished cooking, reserve ½ cup of the starchy pasta water and then drain the pasta in a colander.
+2. While the pasta is cooking, thaw the broccoli in the microwave and begin to make the parmesan sauce. Mince the garlic and cook it over medium heat in a medium sauce pot with the butter until the garlic has softened slightly (3-5 minutes). Add the flour, stir and cook for 2-3 minutes more. This is the “roux” that will thicken the sauce.
+3. Whisk in the milk. Increase the heat to medium-high. Whisk the milk mixture until it comes up to a light simmer. As soon as it reaches a simmer it will thicken and should be able to coat a wooden spoon (see photos below). Turn the heat off and whisk in the parmesan cheese. Add freshly cracked black pepper, nutmeg, and salt to taste. Make the sauce slightly saltier than you’d prefer if you were eating the sauce alone. Once it’s spread out over the pasta and broccoli it will taste more mild.
+4. Return the cooked pasta to the large pot that it was boiled in (with the burner turned off). Add the reserved pasta cooking water and toss the pasta to loosen it up. Add the thawed broccoli and then pour the parmesan sauce over top. Stir to coat everything in the sauce and then serve!</mutableString>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ocV-I5-Qi3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3622" y="-1930"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="QBK-uY-ekh">
+            <objects>
+                <viewController id="3Lk-Ot-bRX" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XEb-RA-RR2"/>
+                        <viewControllerLayoutGuide type="bottom" id="klP-4e-htA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3uU-zv-ePj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Instructions" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UG3-2o-31t">
+                                <frame key="frameInset" minX="94" minY="64" width="186" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Fc-u9-JD2">
+                                <frame key="frameInset" minX="16" minY="114" width="343" height="502"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">1. Cook the pasta according to the package directions (boil for 7-10 minutes, or until al dente). Drain the pasta in a colander.
+2. While the pasta is cooking, add the sausage links to a large pot along with one tablespoon of olive oil. Cook the sausage over medium heat for about five minutes, or until they are slightly browned and firm enough to slice.
+3. While the sausage is cooking, mince the garlic and dice the onion. Remove the sausage from the pot and add the onion and garlic in its place. Sauté the onion and garlic in the pot for 2-3 minutes, allowing the moisture to dissolve the brown bits from the bottom of the pot. Meanwhile, slice the sausage into medallions. Once the onions are soft and transparent, add the sliced sausage back to the pot and cook for about 5 minutes more, or until the sausage is cooked through.
+4. Add the can of crushed tomatoes, tomato paste, basil, salt, pepper, and brown sugar to the pot. Stir until the tomato paste is evenly combined with the tomato sauce.
+5. By this time the pasta should be fully cooked and drained. Add the drained pasta to the pot, along with the frozen broccoli and spinach. Stir to combine. Heat the pasta and sauce over a medium flame until warmed through (stir occasionally to help it heat evenly). Crumble the feta into the pot, stir to combine, then serve.</mutableString>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="no8-dH-52Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4417" y="-1931"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="N0q-aH-PjE">
+            <objects>
+                <viewController id="jKB-V9-g1w" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="U28-VM-9zQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="nVL-xf-6Zk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AB7-2x-XM7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ingredients" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sGf-X1-t6Y">
+                                <frame key="frameInset" minX="94" minY="64" width="186" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LE5-43-ARR">
+                                <frame key="frameInset" minX="16" minY="114" width="343" height="463"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">• 16 oz. dry fettuccine $1.63
+• 16 oz. frozen broccoli florets $1.29
+• 1 clove garlic $0.08
+• 4 Tbsp butter $0.45
+• 4 Tbsp all-purpose flour $0.06
+• 3 cups milk $0.94
+• 1 cup grated parmesan $0.96
+• ⅛ tsp nutmeg $0.02
+to taste salt &amp; pepper $0.05
+</string>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aEP-VV-Mxi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3622" y="-1225"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="mRb-SZ-z43">
+            <objects>
+                <viewController id="7mT-L3-Sty" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="90z-sO-xeb"/>
+                        <viewControllerLayoutGuide type="bottom" id="pWf-ym-rkq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VwB-JV-Iul">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ingredients" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YYv-a5-4ik">
+                                <frame key="frameInset" minX="94" minY="64" width="186" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Kp-WG-WI9">
+                                <frame key="frameInset" minX="16" minY="114" width="343" height="463"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">• 1 13oz. package penne pasta $1.49
+• 1 Tbsp olive oil $0.16
+• 12 oz. (3 links) Italian sausage $2.99
+• 2 cloves garlic $0.16
+• 1 medium onion $0.42
+• 1 (28 oz.) can crushed tomatoes $1.39
+• 1 (6 oz.) can tomato paste $0.56
+• 1 tsp basil $0.10
+• ¾ tsp salt $0.05
+• Freshly cracked pepper $0.05
+• ½ Tbsp brown sugar $0.02
+• ¼ lb. frozen broccoli $0.47
+• ¼ lb. frozen spinach $0.47
+• 2 oz. feta $0.87</mutableString>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vaN-pd-ayz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4418" y="-1226"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="QlV-2F-dS1">
@@ -128,11 +603,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WHd-k2-ALL">
-                                <frame key="frameInset" minX="82" minY="111" width="211" height="144"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Pastalaya-close"/>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PASTALAYA" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DXd-Ub-O4E">
                                 <frame key="frameInset" minX="76" minY="72" width="223" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -140,8 +610,44 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CdS-ON-rE8">
-                                <frame key="frameInset" minX="82" minY="389" width="211" height="144"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uMr-f8-pSc">
+                                <frame key="frameInset" minX="16" minY="271" width="113" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Ingredients">
+                                    <color key="titleShadowColor" red="0.49803921569999998" green="0.54901960780000003" blue="0.55294117649999996" alpha="0.60204741380000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="wKh-i8-f62" kind="show" id="Y47-iF-1tg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OX0-1b-XPz">
+                                <frame key="frameInset" minX="245" minY="270" width="114" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Instructions">
+                                    <color key="titleShadowColor" red="0.49803921569999998" green="0.54901960780000003" blue="0.55294117649999996" alpha="0.60204741380000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="9ms-G5-880" kind="show" id="uj6-W3-rx2"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bjl-Fa-JRv">
+                                <frame key="frameInset" minX="16" minY="314" width="343" height="333"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">NOTES:
+
+*The "seasoning mix" used is a pre-chopped and frozen blend of onion, bell pepper, and celery, also known as "trinity". If you prefer to use fresh, chop one yellow onion, one green bell pepper, and two stalks of celery.
+
+**Creole seasoning can be found in most major grocery stores, but you can make your own using this blend of spices. Store bought Creole seasoning blends usually contain a lot of salt, so you may need to add extra salt to the final product to compensate.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pastalaya-close" translatesAutoresizingMaskIntoConstraints="NO" id="CdS-ON-rE8">
+                                <frame key="frameInset" minX="76" minY="109" width="224" height="153"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -150,7 +656,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uz6-Ok-KfY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2846" y="-566"/>
+            <point key="canvasLocation" x="2845.5999999999999" y="-566.26686656671666"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ClO-rS-Qap">
@@ -164,22 +670,51 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uI8-Pl-yvd">
-                                <frame key="frameInset" minX="82" minY="111" width="211" height="144"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Broccoli Fettuccine close"/>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BROCCOLI FETTUCCINE ALFREDO" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zed-f2-pAK">
-                                <frame key="frameInset" minX="76" minY="72" width="223" height="43"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BROCCOLI FETTUCCINE ALFREDO" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tBh-tl-aEf">
+                                <frame key="frameInset" minX="76" minY="64" width="223" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FE1-fD-Dt4">
-                                <frame key="frameInset" minX="76" minY="359" width="211" height="144"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Broccoli Fettuccine close" translatesAutoresizingMaskIntoConstraints="NO" id="psa-2e-cXd">
+                                <frame key="frameInset" minX="76" minY="109" width="224" height="153"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6n6-tn-qo1">
+                                <frame key="frameInset" minX="16" minY="263" width="113" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Ingredients">
+                                    <color key="titleShadowColor" red="0.49803921569999998" green="0.54901960780000003" blue="0.55294117649999996" alpha="0.60204741380000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="jKB-V9-g1w" kind="show" id="KLb-MZ-fra"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i1L-GW-ijH">
+                                <frame key="frameInset" minX="245" minY="262" width="114" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Instructions">
+                                    <color key="titleShadowColor" red="0.49803921569999998" green="0.54901960780000003" blue="0.55294117649999996" alpha="0.60204741380000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Fkm-AW-d0W" kind="show" id="fq5-p9-tMW"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fjp-Gy-5Y9">
+                                <frame key="frameInset" minX="16" minY="306" width="343" height="333"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">NOTES:
+
+N/A</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -200,22 +735,51 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GtP-D5-bep">
-                                <frame key="frameInset" minX="82" minY="103" width="211" height="144"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Penne-Pasta-with-Feta-and-Greens-close"/>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PENNE PASTA WITH SAUSAGE AND GREENS" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hs2-Vp-e4K">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PENNE PASTA WITH SAUSAGE AND GREENS" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M96-UD-rr8">
                                 <frame key="frameInset" minX="76" minY="64" width="223" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S5l-oH-7xq">
-                                <frame key="frameInset" minX="88" minY="343" width="211" height="144"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Penne-Pasta-with-Feta-and-Greens-close" translatesAutoresizingMaskIntoConstraints="NO" id="mRx-gv-OOn">
+                                <frame key="frameInset" minX="76" minY="109" width="224" height="153"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ED5-DP-1Lb">
+                                <frame key="frameInset" minX="16" minY="263" width="113" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Ingredients">
+                                    <color key="titleShadowColor" red="0.49803921569999998" green="0.54901960780000003" blue="0.55294117649999996" alpha="0.60204741380000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="7mT-L3-Sty" kind="show" id="i0o-Jq-BGT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rsr-e2-sKp">
+                                <frame key="frameInset" minX="245" minY="262" width="114" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Instructions">
+                                    <color key="titleShadowColor" red="0.49803921569999998" green="0.54901960780000003" blue="0.55294117649999996" alpha="0.60204741380000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="3Lk-Ot-bRX" kind="show" id="VUv-m5-Vr0"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kpu-83-nYH">
+                                <frame key="frameInset" minX="16" minY="306" width="343" height="333"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">NOTES:
+
+N/A</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -309,22 +873,51 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PKr-YL-omv">
-                                <frame key="frameInset" minX="82" minY="111" width="211" height="144"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="One-Pot-Creamy-Sun-Dried-Tomato-Pasta-close-above"/>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ONE POT CREAMY SUN DRIED TOMATO PASTA" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b4y-3A-J1E">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ONE POT CREAMY SUN DRIED TOMATO PASTA" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uy1-VR-z0W">
                                 <frame key="frameInset" minX="76" minY="72" width="223" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a5l-ph-meV">
-                                <frame key="frameInset" minX="82" minY="328" width="211" height="144"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="One-Pot-Creamy-Sun-Dried-Tomato-Pasta-close-above" translatesAutoresizingMaskIntoConstraints="NO" id="QL3-ge-GrJ">
+                                <frame key="frameInset" minX="76" minY="117" width="224" height="153"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dfd-c2-fIR">
+                                <frame key="frameInset" minX="16" minY="271" width="113" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Ingredients">
+                                    <color key="titleShadowColor" red="0.49803921569999998" green="0.54901960780000003" blue="0.55294117649999996" alpha="0.60204741380000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="bxj-tr-nuS" kind="show" id="j2S-u3-twh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dVI-dy-t7k">
+                                <frame key="frameInset" minX="245" minY="270" width="114" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Instructions">
+                                    <color key="titleShadowColor" red="0.49803921569999998" green="0.54901960780000003" blue="0.55294117649999996" alpha="0.60204741380000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ezb-34-anh" kind="show" id="VgE-X5-gFf"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="768-Il-H0G">
+                                <frame key="frameInset" minX="16" minY="314" width="343" height="333"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">NOTES:
+
+*I use reconstituted Better Than Bouillon soup base to make my broth.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -345,22 +938,51 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zgm-PA-tKE">
-                                <frame key="frameInset" minX="82" minY="111" width="211" height="144"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Spicy-Shrimp-Pasta-skillet-side"/>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SPICY SHRIMP TOMATO PASTA" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YPA-8c-qoQ">
-                                <frame key="frameInset" minX="76" minY="72" width="223" height="43"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SPICY SHRIMP TOMATO PASTA" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qsB-k5-BdV">
+                                <frame key="frameInset" minX="76" minY="64" width="223" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ord-Do-DJc">
-                                <frame key="frameInset" minX="76" minY="330" width="211" height="144"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Spicy-Shrimp-Pasta-skillet-side" translatesAutoresizingMaskIntoConstraints="NO" id="xTQ-oO-FAT">
+                                <frame key="frameInset" minX="76" minY="109" width="224" height="153"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l3M-Rj-qiu">
+                                <frame key="frameInset" minX="16" minY="263" width="113" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Ingredients">
+                                    <color key="titleShadowColor" red="0.49803921569999998" green="0.54901960780000003" blue="0.55294117649999996" alpha="0.60204741380000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="be4-Zk-E2m" kind="show" id="cCW-rx-Pa3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nGY-iS-Mbc">
+                                <frame key="frameInset" minX="245" minY="262" width="114" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Instructions">
+                                    <color key="titleShadowColor" red="0.49803921569999998" green="0.54901960780000003" blue="0.55294117649999996" alpha="0.60204741380000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ZWe-pZ-mo4" kind="show" id="VNa-0n-Dm0"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HFg-UT-JhE">
+                                <frame key="frameInset" minX="16" minY="306" width="343" height="333"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">NOTES:
+
+N/A</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -381,22 +1003,51 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LM7-ys-g1S">
-                                <frame key="frameInset" minX="82" minY="103" width="211" height="144"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Cajun-Chicken-Pasta-pan-close"/>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CAJUN CHICKEN PASTA" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bvg-58-WVa">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CAJUN CHICKEN PASTA" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="19k-2Y-xpX">
                                 <frame key="frameInset" minX="76" minY="64" width="223" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Urr-WG-oQf">
-                                <frame key="frameInset" minX="84" minY="372" width="211" height="144"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cajun-Chicken-Pasta-pan-close" translatesAutoresizingMaskIntoConstraints="NO" id="Y97-ff-XNs">
+                                <frame key="frameInset" minX="76" minY="109" width="224" height="153"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AZF-HS-Vyh">
+                                <frame key="frameInset" minX="16" minY="263" width="113" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Ingredients">
+                                    <color key="titleShadowColor" red="0.49803921569999998" green="0.54901960780000003" blue="0.55294117649999996" alpha="0.60204741380000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ezB-3h-E60" kind="show" id="ILu-5T-DFt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uXC-fU-ZoV">
+                                <frame key="frameInset" minX="245" minY="262" width="114" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Instructions">
+                                    <color key="titleShadowColor" red="0.49803921569999998" green="0.54901960780000003" blue="0.55294117649999996" alpha="0.60204741380000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="NsE-sv-26d" kind="show" id="2oV-iD-YNG"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GN8-St-xC5">
+                                <frame key="frameInset" minX="16" minY="306" width="343" height="333"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">NOTES:
+
+N/A</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -404,6 +1055,90 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hfi-2C-9PV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4396" y="806"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="y1O-XM-eyh">
+            <objects>
+                <viewController id="be4-Zk-E2m" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ejG-y5-uA9"/>
+                        <viewControllerLayoutGuide type="bottom" id="OpK-1s-ROj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Yft-JO-xEZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ingredients" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZfQ-0g-Euc">
+                                <frame key="frameInset" minX="94" minY="64" width="186" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jfm-u4-jWC">
+                                <frame key="frameInset" minX="16" minY="114" width="343" height="463"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">• 8 oz. fettuccine $0.95
+• 2 Tbsp olive oil $0.32
+• 1 Tbsp butter $0.15
+• 4 cloves garlic $0.32
+• ½ lb. peeled &amp; deveined shrimp (41/50 size) $3.50
+• 1 (15. oz.) can diced tomatoes $0.69
+• ¼ tsp crushed red pepper flakes $0.02
+• ¼ tsp salt $0.02
+• Freshly cracked pepper to taste $0.05
+• Handful fresh parsley $0.22</mutableString>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TXc-nk-IX6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5113" y="806"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hM4-3g-i9Q">
+            <objects>
+                <viewController id="ZWe-pZ-mo4" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="c8X-2U-R7c"/>
+                        <viewControllerLayoutGuide type="bottom" id="JdG-95-uBl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="y9W-Xa-Fao">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Instructions" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="stT-Db-euJ">
+                                <frame key="frameInset" minX="94" minY="64" width="186" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8bT-Pd-yUt">
+                                <frame key="frameInset" minX="16" minY="114" width="343" height="533"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">1. Bring a large pot of water to a boil, add the pasta, and continue to boil for 7-10 minutes, or until tender. Drain the pasta in a colander.
+2. While the pasta is cooking, add the olive oil and butter to a large skillet and place over medium heat. Mince the garlic while waiting for the butter to melt.
+3. Rinse the shrimp with cool water and allow the excess water to drain away. Add the shrimp and minced garlic to the skillet. Saute the shrimp and garlic for 3-5 minutes, or just until the shrimp turns opaque and slightly pink (no longer grey and translucent). Remove the shrimp from the skillet and set it aside until later.
+4. Add the can of tomatoes with juices to the skillet, along with the crushed red pepper flakes, salt, and some freshly cracked pepper. Stir to combine and let the sauce simmer over medium heat for about five minutes.
+5. When the sauce has thickened slightly, add the cooked and drained pasta. Toss to coat in the sauce. Add the cooked shrimp back to the skillet and toss to combine with the pasta. Taste and adjust the salt if needed.
+6. Roughly chop a handful of parsley leaves and sprinkle over top before serving.</mutableString>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uKu-hV-dbv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5752.8000000000002" y="805.54722638680664"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Nxa-AO-GDu">
@@ -417,22 +1152,51 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hPQ-1r-hfg">
-                                <frame key="frameInset" minX="82" minY="103" width="211" height="144"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Creamy-Chicken-Fajita-Pasta-half-spoon"/>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CREAMY CHICKEN FAJITA PASTA" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Es-t4-HT7">
-                                <frame key="frameInset" minX="76" minY="64" width="223" height="43"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CREAMY CHICKEN FAJITA PASTA" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eze-Gl-pcr">
+                                <frame key="frameInset" minX="76" minY="72" width="223" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CWc-dw-3Lq">
-                                <frame key="frameInset" minX="51" minY="330" width="211" height="144"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Creamy-Chicken-Fajita-Pasta-half-spoon" translatesAutoresizingMaskIntoConstraints="NO" id="1Bo-y5-plJ">
+                                <frame key="frameInset" minX="76" minY="117" width="224" height="153"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fiU-ju-BFn">
+                                <frame key="frameInset" minX="16" minY="271" width="113" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Ingredients">
+                                    <color key="titleShadowColor" red="0.49803921569999998" green="0.54901960780000003" blue="0.55294117649999996" alpha="0.60204741380000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Vkr-bN-jDj" kind="show" id="GDB-OM-LWS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q2N-EG-O7U">
+                                <frame key="frameInset" minX="245" minY="270" width="114" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Instructions">
+                                    <color key="titleShadowColor" red="0.49803921569999998" green="0.54901960780000003" blue="0.55294117649999996" alpha="0.60204741380000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="mGX-VO-xaw" kind="show" id="a6k-Qv-AfC"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i12-Sz-rpe">
+                                <frame key="frameInset" minX="16" minY="314" width="343" height="333"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">NOTES:
+
+*The chili powder used is a mild blend of red chiles and other spices.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -440,6 +1204,180 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t8j-sw-BRR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2846" y="1470"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="SV8-kx-G6z">
+            <objects>
+                <viewController id="bxj-tr-nuS" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YbN-lE-5xj"/>
+                        <viewControllerLayoutGuide type="bottom" id="hPz-6r-9vr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="no3-B3-dlY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ingredients" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bzH-hm-Nkj">
+                                <frame key="frameInset" minX="94" minY="64" width="186" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uu9-Ft-xnj">
+                                <frame key="frameInset" minX="16" minY="114" width="343" height="463"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">• 2 Tbsp butter $0.26
+• 2 cloves garlic $0.16
+• 2 cups chicken broth* $0.25
+• 1.5 cups whole milk $0.47
+• 8oz. fettuccine $0.50
+• 12 pieces sun dried tomatoes $0.82
+• Freshly cracked pepper $0.05
+• ¼ cup grated Parmesan $0.35</string>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e0Q-QP-BNb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2614" y="2128"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="YIJ-oY-WzE">
+            <objects>
+                <viewController id="Vkr-bN-jDj" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yVI-XF-vC6"/>
+                        <viewControllerLayoutGuide type="bottom" id="WUK-SR-KHC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mAT-Nf-O1x">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ingredients" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aaz-6b-zDO">
+                                <frame key="frameInset" minX="94" minY="64" width="186" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x4i-po-pvB">
+                                <frame key="frameInset" minX="16" minY="114" width="343" height="533"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">FAJITA SPICE MIX:
+
+• 2 tsp chili powder* $0.20
+• 1 tsp smoked paprika $0.10
+• ¼ tsp onion powder $0.03
+• ¼ tsp garlic powder $0.03
+• ¼ tsp cumin $0.03
+• ⅛ tsp cayenne $0.02
+• ½ tsp sugar $0.01
+• ½ tsp salt $0.02
+
+CHICKEN PASTA:
+
+• 1 Tbsp cooking oil $0.04
+• 1 boneless skinless chicken breast (about 0.75 lb.) $1.30
+• 1 bell pepper $0.88
+• 1 yellow onion $0.34
+• 15oz. can fire roasted diced tomatoes $1.29
+• 4oz. cream cheese $1.00
+• 8oz. pasta (any shape) $0.83
+• 2 green onions, sliced $0.17</mutableString>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k1H-zv-HkO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2613.5999999999999" y="2785.4572713643179"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="vwa-jk-474">
+            <objects>
+                <viewController id="mGX-VO-xaw" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="crl-lA-mEp"/>
+                        <viewControllerLayoutGuide type="bottom" id="SOo-L9-nBU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ya9-z7-sSd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Instructions" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wUG-Zs-ebo">
+                                <frame key="frameInset" minX="94" minY="64" width="186" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1vO-ot-9xT">
+                                <frame key="frameInset" minX="16" minY="114" width="343" height="502"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">1. Combine the spices for the fajita spice mix in a bowl and set aside. Dice the onion and bell pepper, and cut the chicken breast into ½-inch cubes.
+2. Bring a large pot of water to a boil for the pasta. Once boiling, add the pasta and continue to boil until tender (7-10 minutes, or according to the package directions). Drain the pasta in a colander and set it aside until ready to use.
+While waiting for the pasta to cook, heat 1 Tbsp cooking oil in a large skillet over medium heat. Once hot, add the cubed chicken and the fajita spice mix. Sauté the chicken and spices until the chicken is cooked through and slightly browned. Remove the chicken from the skillet to a clean bowl.
+3. Add the onion and bell pepper to the skillet and continue to sauté over medium heat just until they begin to soften slightly on the edges and have a little brown color. Add the canned tomatoes (with juices) and the cream cheese. Stir the mixture over medium heat until the cream cheese melts in and forms a creamy sauce with the tomatoes.
+4. Finally, add the cooked and drained pasta and cooked chicken back to the skillet. Stir until everything is evenly combined and coated in creamy sauce. Top with sliced green onions and serve.</mutableString>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fYY-0E-s4S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3326" y="2785"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7mQ-JX-jUR">
+            <objects>
+                <viewController id="ezb-34-anh" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tXJ-Qz-KWH"/>
+                        <viewControllerLayoutGuide type="bottom" id="H7U-wv-Mox"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dSw-VE-vdB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Instructions" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uZN-Np-jMg">
+                                <frame key="frameInset" minX="94" minY="64" width="186" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Umf-z1-DbL">
+                                <frame key="frameInset" minX="16" minY="114" width="343" height="502"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">1. Cut the sun dried tomatoes into small pieces and set aside. Mince the garlic and sauté it with butter in a deep skillet over medium heat for 1-2 minutes, or just until it's soft and fragrant (don't let it brown).
+2. Add the chicken broth, milk, fettuccine (I like to break it in half first), sun dried tomato pieces, and a healthy dose of freshly cracked pepper (15-20 cranks of a pepper mill) to the skillet. Make sure the pasta is submerged below the liquid.
+3. Place a lid on the pasta and allow the liquid in the skillet to come to a boil. Once it reaches a boil, give it a quick stir to make sure the pasta is not stuck to the bottom. Return the lid to the top, turn the heat down to low (or just above low), and let it simmer for about 10-12 minutes, or until the pasta is tender. Stir briefly every 4-5 minutes as it simmers to keep the pasta from sticking to the bottom of the skillet.
+4. If the pasta is still very soupy at that point, remove the lid and let it simmer for 3-5 minutes more, or until the sauce has reduced and thickened slightly. Once thickened, sprinkle the Parmesan over top and serve. The sauce will continue to thicken after the pasta is removed from the heat.</mutableString>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nmr-rr-60h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3327" y="2128"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="GiO-Ll-lbi">
@@ -453,22 +1391,51 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7c5-dK-kyD">
-                                <frame key="frameInset" minX="82" minY="103" width="211" height="144"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Creamy-Tomato-and-Spinach-Pasta-skillet"/>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CREAMY TOMATO AND SPINACH PASTA" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZDA-to-iHK">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CREAMY TOMATO AND SPINACH PASTA" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n66-2c-kjH">
                                 <frame key="frameInset" minX="76" minY="64" width="223" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="epU-wQ-Vcp">
-                                <frame key="frameInset" minX="60" minY="305" width="211" height="144"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Creamy-Tomato-and-Spinach-Pasta-skillet" translatesAutoresizingMaskIntoConstraints="NO" id="W1r-r4-REC">
+                                <frame key="frameInset" minX="76" minY="109" width="224" height="153"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LG0-gy-4Q3">
+                                <frame key="frameInset" minX="16" minY="263" width="113" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Ingredients">
+                                    <color key="titleShadowColor" red="0.49803921569999998" green="0.54901960780000003" blue="0.55294117649999996" alpha="0.60204741380000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="y9m-k1-sD4" kind="show" id="zCk-we-gSI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q93-rR-Uya">
+                                <frame key="frameInset" minX="245" minY="262" width="114" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Instructions">
+                                    <color key="titleShadowColor" red="0.49803921569999998" green="0.54901960780000003" blue="0.55294117649999996" alpha="0.60204741380000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="RJh-s3-GpI" kind="show" id="OCe-BE-Hvs"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E5O-n2-bQZ">
+                                <frame key="frameInset" minX="16" minY="306" width="343" height="333"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">NOTES:
+
+N/A</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -489,22 +1456,51 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mfH-xm-ddD">
-                                <frame key="frameInset" minX="82" minY="111" width="211" height="144"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="One-Pot-Sausage-Mushroom-Pasta-pot"/>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ONE POT SAUSAGE &amp; MUSHROOM PASTA" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QSt-w2-MsO">
-                                <frame key="frameInset" minX="76" minY="72" width="223" height="43"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ONE POT SAUSAGE &amp; MUSHROOM PASTA" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CJk-tF-DgO">
+                                <frame key="frameInset" minX="76" minY="64" width="223" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4t6-h9-q5F">
-                                <frame key="frameInset" minX="100" minY="299" width="211" height="144"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="One-Pot-Sausage-Mushroom-Pasta-pot" translatesAutoresizingMaskIntoConstraints="NO" id="Z75-Go-hok">
+                                <frame key="frameInset" minX="76" minY="109" width="224" height="153"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0p6-mx-ly3">
+                                <frame key="frameInset" minX="16" minY="263" width="113" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Ingredients">
+                                    <color key="titleShadowColor" red="0.49803921569999998" green="0.54901960780000003" blue="0.55294117649999996" alpha="0.60204741380000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="DGQ-kI-ax5" kind="show" id="exo-hd-ofj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JKF-Sl-FgL">
+                                <frame key="frameInset" minX="245" minY="262" width="114" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Instructions">
+                                    <color key="titleShadowColor" red="0.49803921569999998" green="0.54901960780000003" blue="0.55294117649999996" alpha="0.60204741380000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ydf-sa-wDk" kind="show" id="bCG-73-Wyf"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GNU-MW-sbB">
+                                <frame key="frameInset" minX="16" minY="306" width="343" height="333"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">NOTES:
+
+*I use Better Than Bouillon brand soup base to make my broth.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -512,6 +1508,274 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TFO-Zg-afY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4396" y="1469"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ija-bn-Nrv">
+            <objects>
+                <viewController id="ezB-3h-E60" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="L1Y-GL-mfo"/>
+                        <viewControllerLayoutGuide type="bottom" id="dPL-gB-Xf2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mGW-Xa-V5Q">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ingredients" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HHt-CI-PXe">
+                                <frame key="frameInset" minX="94" minY="64" width="186" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pwf-sJ-uoO">
+                                <frame key="frameInset" minX="16" minY="114" width="343" height="533"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">BLACKENED SEASONING:
+
+• 2 tsp paprika (smoked or sweet) $0.20
+• ½ tsp garlic powder $0.03
+• ¼ tsp cayenne pepper $0.02
+• 1 tsp dried oregano $0.10
+• 1 tsp dried thyme $0.10
+• ¾ tsp salt $0.05
+• freshly cracked pepper (20-25 cranks of a mill) $0.05
+
+FOR THE PASTA:
+
+• 1 large (3/4 lb.) chicken breast $1.50
+• 1 Tbsp butter $0.10
+• 1 green bell pepper $0.85
+• 1 red bell pepper $1.00
+• 1 yellow onion $0.35
+• 1 (15 oz.) can fire roasted tomatoes $1.39
+• 1 oz. cream cheese $0.25
+• 12 oz. fettuccine $0.88
+• 3 whole green onions $0.28</mutableString>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wRS-1Q-G9T" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5113" y="1469"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Oey-2q-DkQ">
+            <objects>
+                <viewController id="y9m-k1-sD4" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YKQ-qB-UPf"/>
+                        <viewControllerLayoutGuide type="bottom" id="n5s-4U-kai"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OuH-qx-QZT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ingredients" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VYa-vz-Ydx">
+                                <frame key="frameInset" minX="94" minY="64" width="186" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fzc-a5-YX2">
+                                <frame key="frameInset" minX="16" minY="114" width="343" height="463"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">• ½ lb. penne pasta $0.89
+• 1 small onion $0.25
+• 2 cloves garlic $0.16
+• 1 Tbsp olive oil $0.16
+• 1 (15 oz.) can diced tomatoes $0.59
+• ½ tsp dried oregano $0.03
+• ½ tsp dried basil $0.03
+• pinch red pepper flakes (optional) $0.02
+• ½ tsp salt $0.03
+• freshly cracked pepper to taste $0.05
+• 2 Tbsp tomato paste $0.11
+• 2 oz. cream cheese $0.48
+• ¼ cup grated Parmesan $0.42
+• ½ (9 oz.) bag fresh spinach $0.50</mutableString>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J7F-x5-Wgv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4050" y="2128"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4NB-Mi-Zy5">
+            <objects>
+                <viewController id="RJh-s3-GpI" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WaW-kS-t1G"/>
+                        <viewControllerLayoutGuide type="bottom" id="m8g-NF-x2Y"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bmC-xM-ldf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Instructions" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ox-bn-4ge">
+                                <frame key="frameInset" minX="94" minY="64" width="186" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qpM-CH-Lza">
+                                <frame key="frameInset" minX="16" minY="114" width="343" height="533"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">1. Bring a large pot of water to a boil over high heat. Add the pasta and cook until tender (7-10) minutes. Drain the pasta in a colander.
+2. While waiting for the pasta to cook, dice the onion and mince the garlic. Cook both in a large skillet with the olive oil over medium-low heat until softened and transparent (about 5 minutes).
+3. Add the diced tomatoes (with juices), oregano, basil, red pepper flakes, salt, and some freshly cracked pepper to the skillet with the onions and garlic. Stir to combine. Add the tomato paste and a ½ cup of water to the skillet and stir until the tomato paste is dissolved into the sauce.
+4. Turn the heat down to low. Cut the cream cheese into a few pieces and then add them to the skillet with the tomato sauce. Use a whisk to stir the sauce until the cream cheese has fully melted in and the sauce is creamy. Add half of the Parmesan to the skillet and whisk until it is melted in. Add the remainder of the parmesan and whisk until melted in again.
+5. Add the fresh spinach and gently stir it into the sauce until it has wilted (3-5 minutes). Add the pasta and stir until it is well coated in the creamy tomato sauce. Taste and adjust the salt and pepper as needed. Serve warm.</mutableString>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kRD-j7-sKo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4706" y="2128"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="bWL-Bi-Hwa">
+            <objects>
+                <viewController id="DGQ-kI-ax5" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MJ4-js-dEc"/>
+                        <viewControllerLayoutGuide type="bottom" id="ucn-dx-8Tt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="R9t-zU-zQq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ingredients" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tfR-aG-4Yl">
+                                <frame key="frameInset" minX="94" minY="64" width="186" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dcr-Q4-8Ow">
+                                <frame key="frameInset" minX="16" minY="114" width="343" height="463"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">• 2 Tbsp olive oil $0.32
+• 2-3 links Italian sausage $1.99
+• 2 cloves garlic $0.16
+• 1 small onion $0.52
+• 8 oz. button mushrooms $1.99
+• 1 (28oz.) can crushed tomatoes $1.00
+• 1 tsp dried basil $0.10
+• 1 tsp dried oregano $0.10
+• 4 cups vegetable broth $0.52*
+• 1 lb. rigatoni $1.89
+• ¼ cup parmesan $0.41
+• handful fresh parsley (optional) $0.23
+</mutableString>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6er-nw-YIl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5596" y="2128"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="KjU-05-CHE">
+            <objects>
+                <viewController id="ydf-sa-wDk" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ipU-lf-T7D"/>
+                        <viewControllerLayoutGuide type="bottom" id="CIr-YL-um4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tbO-pl-pA3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Instructions" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YBH-9p-bJy">
+                                <frame key="frameInset" minX="94" minY="64" width="186" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C2h-KF-Ea7">
+                                <frame key="frameInset" minX="16" minY="114" width="343" height="533"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">1. Add the olive oil and sausage links to a large pot and cook over medium heat until they are browned on the outside and firm enough to slice into rounds. Remove the sausage from the pot with tongs, slice into rounds, then return them to the pot and cook for a few minutes more, or until fully browned.
+2. While the sausage is cooking, slice or mince the garlic and slice or dice the onion (depending on how big you want your pieces). Slice the mushrooms.
+3. Once the sausage is browned, add the crushed tomatoes, onion, garlic, mushrooms, basil, and oregano to the pot. Stir to combine and to dissolve any browned bits off the bottom of the pot.
+4. Add the vegetable broth and pasta, then stir to combine. Place a lid on the pot, turn the heat up to high, and bring it to a rapid boil. As soon as it reaches a full boil, give it a stir, replace the lid, turn the heat down to low. Let the pot simmer on low for 15 minutes. Stir it every five minutes or so while it's simmering. Make sure it's simmering (bubbling) the whole time. If it is not, turn the heat up slightly.
+5. After 15 minutes of simmering, the pasta should be tender and most of the liquid should be absorbed. If there is still too much liquid, let it simmer without a lid for a couple more minutes. Stir in the parmesan and top with fresh chopped parsley, if desired.</mutableString>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VEr-Fv-aCQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6255" y="2128"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Sru-81-OUD">
+            <objects>
+                <viewController id="NsE-sv-26d" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GjJ-ti-M59"/>
+                        <viewControllerLayoutGuide type="bottom" id="jCF-rn-SM6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Lwe-ju-pe4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Instructions" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5aX-Io-yp4">
+                                <frame key="frameInset" minX="94" minY="64" width="186" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xkq-AU-02S">
+                                <frame key="frameInset" minX="16" minY="114" width="343" height="533"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">1. Combine the herbs and spices for the blackened seasoning in a bowl. Slice the chicken breast into very thin, two inch long strips. Place the chicken strips in a second bowl, pour half of the blackened seasoning over top and toss the chicken to coat in the spices.
+2. Prepare a large pot of water for the pasta. Bring it to a boil over high heat and then add the pasta. Cook the pasta until tender and then drain in a colander.
+3. Meanwhile, thinly slice the bell peppers and onion. In a large skillet, melt the butter over medium heat. Once the skillet is hot and the butter is melted, add the chicken and sauté until cooked through. Remove the cooked chicken from the skillet, add the sliced vegetables, and sauté until they are tender and slightly wilted. Remove the vegetables from the skillet.
+4. Turn the heat under the skillet down to medium low. Add the can of fire roasted tomatoes and the second half of the blackened seasoning. Cut the cream cheese into small pieces and add it to the skillet. Whisk the mixture until the cream cheese has melted into the tomatoes and created a creamy sauce.
+5. Add the cooked chicken and vegetables back to the skillet with the sauce and stir to combine. If your skillet is extra large, add the cooked pasta to the skillet and toss to combine with the chicken, vegetables, and sauce. If your skillet is smaller, you can add the drained pasta back to the large pot it was cooked in (with the heat turned off), then add the chicken, vegetables, and sauce to the pot and stir to combine.
+6. Slice the green onions and sprinkle over top before serving.</mutableString>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="owE-oB-pRg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5753" y="1469"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="khO-hu-WEb">
@@ -610,6 +1874,9 @@
                                 <frame key="frameInset" minX="301" minY="590" width="58" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="next page"/>
+                                <connections>
+                                    <segue destination="bF1-9E-ark" kind="show" id="GWF-mp-r9p"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ONE POT SAUSAGE &amp; MUSHROOM PASTA" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4L0-lp-7R2">
                                 <frame key="frameInset" minX="76" minY="464" width="223" height="43"/>
@@ -657,6 +1924,137 @@
             <point key="canvasLocation" x="4396" y="139"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="i9e-9W-Fdk">
+            <objects>
+                <viewController id="bF1-9E-ark" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SgG-2k-6HB"/>
+                        <viewControllerLayoutGuide type="bottom" id="miZ-YR-yDw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yYy-gO-1X1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="More Pasta Recipes Coming Soon..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UEq-FS-0EM">
+                                <frame key="frameInset" minX="16" minY="64" width="343" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5dL-z5-NLI">
+                                <frame key="frameInset" minX="16" minY="321" width="343" height="204"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Credits
+
+To Beth at BUDGET BYTES. Without her recipes being public, this app wouldn't have been possible. 
+
+Thank you Beth for all the great work you're doing and I hope you have no issues with this app ;)</string>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bethimg" translatesAutoresizingMaskIntoConstraints="NO" id="3I0-Eh-6aT">
+                                <frame key="frameInset" minX="136" minY="185" width="103" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MX2-aU-F2b">
+                                <frame key="frameInset" minX="69" minY="617" width="236" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Go Back to the First Page"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="bnJ-lp-kXY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0GX-FL-BFi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5112.8000000000002" y="138.98050974512745"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="RhM-g8-EQq">
+            <objects>
+                <viewController id="g47-Zm-SAZ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cii-Eb-rpg"/>
+                        <viewControllerLayoutGuide type="bottom" id="b6N-rR-d0M"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QHK-xn-rap">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ingredients" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8gn-io-Mse">
+                                <frame key="frameInset" minX="94" minY="77" width="186" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Kg-fU-tvV">
+                                <frame key="frameInset" minX="16" minY="127" width="343" height="463"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">• 6 oz. bacon (1/2 12oz. pkg) $1.84
+• 1 small onion $0.36
+• 2 cups chicken broth $0.30
+• ½ lb. pasta $0.64
+• ¼ lb. (3-4 cups) fresh spinach $0.96
+• ⅓ cup grated Parmesan $0.55</string>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jrk-07-iUM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="327" y="-1271"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="FzY-eX-dbE">
+            <objects>
+                <viewController id="0cg-HV-QPV" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rxo-LX-FLa"/>
+                        <viewControllerLayoutGuide type="bottom" id="OB7-sS-8wg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qkU-YF-hvL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Instructions" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EMZ-8W-Ugu">
+                                <frame key="frameInset" minX="94" minY="72" width="186" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yon-SJ-xL3">
+                                <frame key="frameInset" minX="16" minY="122" width="343" height="502"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">1. Cut the bacon across the strips into one-inch sections. Sauté the bacon in a large skillet until it is brown and crispy (no extra fat needed). Carefully pour the fat off into a bowl, leaving about one tablespoon in the skillet.
+2. While the bacon cooks, dice the onion. Once the bacon fat is drained from the skillet, add the diced onions and sauté until they are soft and transparent. Allow the moisture from the onions to dissolve some of the browned bits off of the bottom of the skillet.
+3. Add two cups of chicken broth to the skillet and dissolve off any remaining browned bits of bacon drippings from the bottom of the skillet.
+4. Finally, add the pasta to the skillet, place a lid on top, and let the skillet come to a boil over high heat. Once it reaches a boil, turn the heat down to low and let simmer for 15 minutes. Give the skillet a quick stir to loosen the pasta from the bottom every five minutes or so, replacing the lid quickly each time. After 15 minutes the pasta should be tender and most of the broth absorbed. There should be a little bit of thick, saucy broth remaining in the bottom of the skillet.
+5. Add the fresh spinach to the skillet and stir until it has wilted into the pasta. Turn off the heat, sprinkle the Parmesan over top, stir to combine, and then serve.</mutableString>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TvG-6G-B9W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="-1270"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="Cki-7d-9q0">
             <objects>
                 <viewController id="EXF-Lf-Ec6" sceneMemberID="viewController">
@@ -667,12 +2065,103 @@
                     <view key="view" contentMode="scaleToFill" id="WwI-Ql-ne5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BACON AND SPINACH PASTA WITH PARMESAN" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HP0-Fn-kaD">
+                                <frame key="frameInset" minX="76" minY="72" width="223" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bacon-and-Spinach-Pasta-with-Parmesan" translatesAutoresizingMaskIntoConstraints="NO" id="QgW-PF-ONd">
+                                <frame key="frameInset" minX="76" minY="117" width="224" height="153"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FaJ-JN-ff9">
+                                <frame key="frameInset" minX="16" minY="271" width="113" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Ingredients">
+                                    <color key="titleShadowColor" red="0.49803921569999998" green="0.54901960780000003" blue="0.55294117649999996" alpha="0.60204741380000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="g47-Zm-SAZ" kind="show" id="27W-rj-tPg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nKP-E9-YQp">
+                                <frame key="frameInset" minX="245" minY="270" width="114" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Instructions">
+                                    <color key="titleShadowColor" red="0.49803921569999998" green="0.54901960780000003" blue="0.55294117649999996" alpha="0.60204741380000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="0cg-HV-QPV" kind="show" id="78d-aL-Q2J"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DbO-rc-Gad">
+                                <frame key="frameInset" minX="16" minY="314" width="343" height="333"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">NOTES:
+
+N/A</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1pP-hq-iQ2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1076" y="-597"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Vm6-8C-S0G">
+            <objects>
+                <viewController id="IBT-vt-b8p" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EeG-Uc-ZjL"/>
+                        <viewControllerLayoutGuide type="bottom" id="uXd-Pi-owo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uxG-oy-Bck">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ingredients" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G87-1P-iD9">
+                                <frame key="frameInset" minX="94" minY="72" width="186" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sTG-RC-cdq">
+                                <frame key="frameInset" minX="16" minY="122" width="343" height="463"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">• 2 cloves garlic $0.16
+• 1 Tbsp butter $0.13
+• 1 cup pumpkin purée $0.78
+• 1 cup chicken broth* $0.12
+• ⅛ tsp nutmeg $0.02
+• ¼ tsp chili powder** $0.03
+• Pinch cayenne pepper $0.02
+• Freshly cracked black pepper $0.05
+• 2 Tbsp half &amp; half or cream $0.19
+• 8 oz. pasta $0.70</mutableString>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dmw-tp-ln0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1932" y="-566"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="52i-bj-Kgc">
@@ -706,6 +2195,10 @@
         <image name="Pastalaya-close" width="640" height="480"/>
         <image name="Penne-Pasta-with-Feta-and-Greens-close" width="640" height="480"/>
         <image name="Spicy-Shrimp-Pasta-skillet-side" width="640" height="480"/>
+        <image name="bethimg" width="160" height="213"/>
         <image name="next page" width="800" height="800"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="bnJ-lp-kXY"/>
+    </inferredMetricsTieBreakers>
 </document>
