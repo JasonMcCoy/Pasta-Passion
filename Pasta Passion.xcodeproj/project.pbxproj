@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5103751E1D6DF64D00D2A1B3 /* CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5103751D1D6DF64D00D2A1B3 /* CornerRadius.swift */; };
 		51AF3EE01D6B8C8200D44EF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AF3EDF1D6B8C8200D44EF3 /* AppDelegate.swift */; };
 		51AF3EE21D6B8C8200D44EF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AF3EE11D6B8C8200D44EF3 /* ViewController.swift */; };
 		51AF3EE51D6B8C8200D44EF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51AF3EE31D6B8C8200D44EF3 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5103751D1D6DF64D00D2A1B3 /* CornerRadius.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerRadius.swift; sourceTree = "<group>"; };
 		51AF3EDC1D6B8C8200D44EF3 /* Pasta Passion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pasta Passion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51AF3EDF1D6B8C8200D44EF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51AF3EE11D6B8C8200D44EF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				51AF3EE61D6B8C8200D44EF3 /* Assets.xcassets */,
 				51AF3EE81D6B8C8200D44EF3 /* LaunchScreen.storyboard */,
 				51AF3EEB1D6B8C8200D44EF3 /* Info.plist */,
+				5103751D1D6DF64D00D2A1B3 /* CornerRadius.swift */,
 			);
 			path = "Pasta Passion";
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			files = (
 				51AF3EE21D6B8C8200D44EF3 /* ViewController.swift in Sources */,
 				51AF3EE01D6B8C8200D44EF3 /* AppDelegate.swift in Sources */,
+				5103751E1D6DF64D00D2A1B3 /* CornerRadius.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +518,7 @@
 				51AF3F061D6B8C8200D44EF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51AF3F071D6B8C8200D44EF3 /* Build configuration list for PBXNativeTarget "Pasta PassionTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				51AF3F091D6B8C8200D44EF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51AF3F0A1D6B8C8200D44EF3 /* Build configuration list for PBXNativeTarget "Pasta PassionUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				51AF3F0C1D6B8C8200D44EF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

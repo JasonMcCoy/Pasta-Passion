@@ -167,7 +167,7 @@ Breaking the pasta in half helps the larger pieces of tomato and pepper stir in 
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Gd-Mp-aCR">
                                 <frame key="frameInset" minX="16" minY="114" width="343" height="463"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">• 5 cups vegetable broth $0.60
+                                <string key="text">• 5 cups vegetable broth $0.60
 • 1 lb. Fettuccine $1.00
 • 1 small Vidalia onion $0.61
 • 4 cloves garlic $0.32
@@ -176,7 +176,7 @@ Breaking the pasta in half helps the larger pieces of tomato and pepper stir in 
 • ½ Tbsp dried basil $0.07
 • ¼ tsp crushed red pepper (optional) $0.03
 • Freshly cracked black pepper $0.05
-• 4 oz. cream cheese (optional) $1.08</mutableString>
+• 4 oz. cream cheese (optional) $1.08</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -211,11 +211,11 @@ Breaking the pasta in half helps the larger pieces of tomato and pepper stir in 
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sKg-JT-VYw">
                                 <frame key="frameInset" minX="16" minY="114" width="343" height="502"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">1. Thinly slice the onion and mince the garlic. Remove the red peppers from the liquid in the jar and then slice them into thin strips.
+                                <string key="text">1. Thinly slice the onion and mince the garlic. Remove the red peppers from the liquid in the jar and then slice them into thin strips.
 2. In a large pot, combine the broth, onion, garlic, red pepper slices, diced tomatoes (with juice), basil, crushed red pepper, and some freshly cracked black pepper (10-15 cranks of a pepper mill). Stir these ingredients to combine. Break the fettuccine in half, then add it to the pot, attempting to submerge the pieces as much as possible.
 3. Place a lid on the pot and turn the heat up to high. As soon as the pot reaches a full boil, give it a quick stir to loosen any pieces that may have stuck to the bottom, return the lid, and turn the heat down to medium-low.
 4. Let the pot simmer on medium low for 10-12 minutes, stirring every couple of minutes to make sure nothing sticks to the bottom. Return the lid as quickly as possible after each stir. After ten minutes, test the pasta to see if it is al dente. Once the pasta is tender, remove it from the heat. (If the pasta becomes too dry before it is tender, simply add a small amount of water and continue to simmer.)
-5. Divide the cream cheese into tablespoon sized pieces, then add them to the pot. Stir the pasta until the cheese melts in and creates a smooth sauce (it will look lumpy at first, just keep stirring). Serve hot.</mutableString>
+5. Divide the cream cheese into tablespoon sized pieces, then add them to the pot. Stir the pasta until the cheese melts in and creates a smooth sauce (it will look lumpy at first, just keep stirring). Serve hot.</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -250,10 +250,10 @@ Breaking the pasta in half helps the larger pieces of tomato and pepper stir in 
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HGl-Td-DuO">
                                 <frame key="frameInset" minX="16" minY="122" width="343" height="502"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">1. Begin boiling a large pot of water for your pasta. Once the water is boiling, add the pasta and boil until al dente (7-10 minutes). Drain in a colander.
+                                <string key="text">1. Begin boiling a large pot of water for your pasta. Once the water is boiling, add the pasta and boil until al dente (7-10 minutes). Drain in a colander.
 2. While waiting for the water to boil, prepare the sauce. Mince two cloves of garlic and add them to a large skillet with one tablespoon of butter. Sauté over medium-low heat for 1-2 minutes, or just until the garlic is soft and fragrant.
 3. Add the pumpkin purée and chicken broth to the skillet and stir to combine. Add the nutmeg, chili powder, cayenne pepper, and some freshly cracked black pepper. Stir in the spices and let the sauce simmer over medium-low heat while the pasta cooks (about 10 minutes), stirring occasionally.
-4. Once the pasta is finished cooking and is draining in a colander, add the half and half or cream to the skillet and stir it into the pumpkin sauce. Taste the sauce and add salt if needed (this will depend on the type of broth you use). Finally, stir the drained pasta in to the sauce and serve.</mutableString>
+4. Once the pasta is finished cooking and is draining in a colander, add the half and half or cream to the skillet and stir it into the pumpkin sauce. Taste the sauce and add salt if needed (this will depend on the type of broth you use). Finally, stir the drained pasta in to the sauce and serve.</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -355,7 +355,7 @@ Breaking the pasta in half helps the larger pieces of tomato and pepper stir in 
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uzk-cU-fTV">
                                 <frame key="frameInset" minX="16" minY="122" width="343" height="463"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">• 1 Tbsp vegetable oil $0.02
+                                <string key="text">• 1 Tbsp vegetable oil $0.02
 • ½ lb. smoked sausage (preferably Andouille) $3.67
 • 2 cloves garlic $0.16
 • 1 10oz. bag frozen "seasoning mix"* $1.39
@@ -370,7 +370,7 @@ Breaking the pasta in half helps the larger pieces of tomato and pepper stir in 
 • 1 lb. penne pasta $1.49
 • 2 Tbsp half &amp; half or cream $0.19
 • ½ bunch fresh parsley $0.45
-• ½ bunch green onions $0.38</mutableString>
+• ½ bunch green onions $0.38</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -405,11 +405,11 @@ Breaking the pasta in half helps the larger pieces of tomato and pepper stir in 
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BZe-Dh-n74">
                                 <frame key="frameInset" minX="16" minY="122" width="343" height="502"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">1. Slice the smoked sausage into thin rounds, then cut any larger pieces in half. Add the sausage and vegetable oil to a large pot and cook over medium heat until the sausage is well browned (about 5 minutes).
+                                <string key="text">1. Slice the smoked sausage into thin rounds, then cut any larger pieces in half. Add the sausage and vegetable oil to a large pot and cook over medium heat until the sausage is well browned (about 5 minutes).
 2. Mince two cloves of garlic and add them to the pot. Sauté for one to two minutes, or until the garlic is soft and fragrant. Add the bag of frozen seasoning mix and sauté until heated through (3-5 minutes). Finally, add the can of diced tomatoes (with juices), Creole seasoning, oregano, smoked paprika, thyme, freshly cracked pepper (about 20 cranks of a pepper mill), chicken broth, 1 cup of water, and pasta to the pot. Stir until everything is evenly combined.
 3. Place a lid on the pot and turn the heat up to medium-high. Let the pot come to a boil. As soon as it reaches a boil, remove the lid briefly to stir, then replace the lid, turn the heat down to low, and let the pot simmer for 12-15 minutes, or until the pasta is tender. Stir the pot once every few minutes as it simmers to prevent the pasta from sticking. Replace the lid as quickly as possible after stirring to avoid heat loss.
 4. While the pasta is simmering, pull the parsley leaves from the stems and give them a good chop, and slice the green onions. Once the pasta is tender, most of the liquid in the pot should be absorbed. If it's still a bit soupy, let the pot simmer for one to two minutes without the lid to allow some moisture to evaporate.
-5. Turn off the heat and stir in the half &amp; half or cream. Stir in most of the chopped parsley and green onions, reserving some to sprinkle over top. Serve hot with a pinch of fresh parsley and green onions on top of each bowl.</mutableString>
+5. Turn off the heat and stir in the half &amp; half or cream. Stir in most of the chopped parsley and green onions, reserving some to sprinkle over top. Serve hot with a pinch of fresh parsley and green onions on top of each bowl.</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="13"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -444,10 +444,10 @@ Breaking the pasta in half helps the larger pieces of tomato and pepper stir in 
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DQg-Wm-7Lb">
                                 <frame key="frameInset" minX="16" minY="114" width="343" height="502"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">1. Begin to boil a large pot of water to cook the pasta. When it reaches a full boil, add the pasta and cook for 7-10 minutes or until al dente. When the pasta is finished cooking, reserve ½ cup of the starchy pasta water and then drain the pasta in a colander.
+                                <string key="text">1. Begin to boil a large pot of water to cook the pasta. When it reaches a full boil, add the pasta and cook for 7-10 minutes or until al dente. When the pasta is finished cooking, reserve ½ cup of the starchy pasta water and then drain the pasta in a colander.
 2. While the pasta is cooking, thaw the broccoli in the microwave and begin to make the parmesan sauce. Mince the garlic and cook it over medium heat in a medium sauce pot with the butter until the garlic has softened slightly (3-5 minutes). Add the flour, stir and cook for 2-3 minutes more. This is the “roux” that will thicken the sauce.
 3. Whisk in the milk. Increase the heat to medium-high. Whisk the milk mixture until it comes up to a light simmer. As soon as it reaches a simmer it will thicken and should be able to coat a wooden spoon (see photos below). Turn the heat off and whisk in the parmesan cheese. Add freshly cracked black pepper, nutmeg, and salt to taste. Make the sauce slightly saltier than you’d prefer if you were eating the sauce alone. Once it’s spread out over the pasta and broccoli it will taste more mild.
-4. Return the cooked pasta to the large pot that it was boiled in (with the burner turned off). Add the reserved pasta cooking water and toss the pasta to loosen it up. Add the thawed broccoli and then pour the parmesan sauce over top. Stir to coat everything in the sauce and then serve!</mutableString>
+4. Return the cooked pasta to the large pot that it was boiled in (with the burner turned off). Add the reserved pasta cooking water and toss the pasta to loosen it up. Add the thawed broccoli and then pour the parmesan sauce over top. Stir to coat everything in the sauce and then serve!</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -482,11 +482,11 @@ Breaking the pasta in half helps the larger pieces of tomato and pepper stir in 
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Fc-u9-JD2">
                                 <frame key="frameInset" minX="16" minY="114" width="343" height="502"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">1. Cook the pasta according to the package directions (boil for 7-10 minutes, or until al dente). Drain the pasta in a colander.
+                                <string key="text">1. Cook the pasta according to the package directions (boil for 7-10 minutes, or until al dente). Drain the pasta in a colander.
 2. While the pasta is cooking, add the sausage links to a large pot along with one tablespoon of olive oil. Cook the sausage over medium heat for about five minutes, or until they are slightly browned and firm enough to slice.
 3. While the sausage is cooking, mince the garlic and dice the onion. Remove the sausage from the pot and add the onion and garlic in its place. Sauté the onion and garlic in the pot for 2-3 minutes, allowing the moisture to dissolve the brown bits from the bottom of the pot. Meanwhile, slice the sausage into medallions. Once the onions are soft and transparent, add the sliced sausage back to the pot and cook for about 5 minutes more, or until the sausage is cooked through.
 4. Add the can of crushed tomatoes, tomato paste, basil, salt, pepper, and brown sugar to the pot. Stir until the tomato paste is evenly combined with the tomato sauce.
-5. By this time the pasta should be fully cooked and drained. Add the drained pasta to the pot, along with the frozen broccoli and spinach. Stir to combine. Heat the pasta and sauce over a medium flame until warmed through (stir occasionally to help it heat evenly). Crumble the feta into the pot, stir to combine, then serve.</mutableString>
+5. By this time the pasta should be fully cooked and drained. Add the drained pasta to the pot, along with the frozen broccoli and spinach. Stir to combine. Heat the pasta and sauce over a medium flame until warmed through (stir occasionally to help it heat evenly). Crumble the feta into the pot, stir to combine, then serve.</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -565,7 +565,7 @@ to taste salt &amp; pepper $0.05
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Kp-WG-WI9">
                                 <frame key="frameInset" minX="16" minY="114" width="343" height="463"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">• 1 13oz. package penne pasta $1.49
+                                <string key="text">• 1 13oz. package penne pasta $1.49
 • 1 Tbsp olive oil $0.16
 • 12 oz. (3 links) Italian sausage $2.99
 • 2 cloves garlic $0.16
@@ -578,7 +578,7 @@ to taste salt &amp; pepper $0.05
 • ½ Tbsp brown sugar $0.02
 • ¼ lb. frozen broccoli $0.47
 • ¼ lb. frozen spinach $0.47
-• 2 oz. feta $0.87</mutableString>
+• 2 oz. feta $0.87</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1078,7 +1078,7 @@ N/A</string>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jfm-u4-jWC">
                                 <frame key="frameInset" minX="16" minY="114" width="343" height="463"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">• 8 oz. fettuccine $0.95
+                                <string key="text">• 8 oz. fettuccine $0.95
 • 2 Tbsp olive oil $0.32
 • 1 Tbsp butter $0.15
 • 4 cloves garlic $0.32
@@ -1087,7 +1087,7 @@ N/A</string>
 • ¼ tsp crushed red pepper flakes $0.02
 • ¼ tsp salt $0.02
 • Freshly cracked pepper to taste $0.05
-• Handful fresh parsley $0.22</mutableString>
+• Handful fresh parsley $0.22</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1122,12 +1122,12 @@ N/A</string>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8bT-Pd-yUt">
                                 <frame key="frameInset" minX="16" minY="114" width="343" height="533"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">1. Bring a large pot of water to a boil, add the pasta, and continue to boil for 7-10 minutes, or until tender. Drain the pasta in a colander.
+                                <string key="text">1. Bring a large pot of water to a boil, add the pasta, and continue to boil for 7-10 minutes, or until tender. Drain the pasta in a colander.
 2. While the pasta is cooking, add the olive oil and butter to a large skillet and place over medium heat. Mince the garlic while waiting for the butter to melt.
 3. Rinse the shrimp with cool water and allow the excess water to drain away. Add the shrimp and minced garlic to the skillet. Saute the shrimp and garlic for 3-5 minutes, or just until the shrimp turns opaque and slightly pink (no longer grey and translucent). Remove the shrimp from the skillet and set it aside until later.
 4. Add the can of tomatoes with juices to the skillet, along with the crushed red pepper flakes, salt, and some freshly cracked pepper. Stir to combine and let the sauce simmer over medium heat for about five minutes.
 5. When the sauce has thickened slightly, add the cooked and drained pasta. Toss to coat in the sauce. Add the cooked shrimp back to the skillet and toss to combine with the pasta. Taste and adjust the salt if needed.
-6. Roughly chop a handful of parsley leaves and sprinkle over top before serving.</mutableString>
+6. Roughly chop a handful of parsley leaves and sprinkle over top before serving.</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1269,7 +1269,7 @@ N/A</string>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x4i-po-pvB">
                                 <frame key="frameInset" minX="16" minY="114" width="343" height="533"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">FAJITA SPICE MIX:
+                                <string key="text">FAJITA SPICE MIX:
 
 • 2 tsp chili powder* $0.20
 • 1 tsp smoked paprika $0.10
@@ -1289,7 +1289,7 @@ CHICKEN PASTA:
 • 15oz. can fire roasted diced tomatoes $1.29
 • 4oz. cream cheese $1.00
 • 8oz. pasta (any shape) $0.83
-• 2 green onions, sliced $0.17</mutableString>
+• 2 green onions, sliced $0.17</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1324,11 +1324,11 @@ CHICKEN PASTA:
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1vO-ot-9xT">
                                 <frame key="frameInset" minX="16" minY="114" width="343" height="502"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">1. Combine the spices for the fajita spice mix in a bowl and set aside. Dice the onion and bell pepper, and cut the chicken breast into ½-inch cubes.
+                                <string key="text">1. Combine the spices for the fajita spice mix in a bowl and set aside. Dice the onion and bell pepper, and cut the chicken breast into ½-inch cubes.
 2. Bring a large pot of water to a boil for the pasta. Once boiling, add the pasta and continue to boil until tender (7-10 minutes, or according to the package directions). Drain the pasta in a colander and set it aside until ready to use.
 While waiting for the pasta to cook, heat 1 Tbsp cooking oil in a large skillet over medium heat. Once hot, add the cubed chicken and the fajita spice mix. Sauté the chicken and spices until the chicken is cooked through and slightly browned. Remove the chicken from the skillet to a clean bowl.
 3. Add the onion and bell pepper to the skillet and continue to sauté over medium heat just until they begin to soften slightly on the edges and have a little brown color. Add the canned tomatoes (with juices) and the cream cheese. Stir the mixture over medium heat until the cream cheese melts in and forms a creamy sauce with the tomatoes.
-4. Finally, add the cooked and drained pasta and cooked chicken back to the skillet. Stir until everything is evenly combined and coated in creamy sauce. Top with sliced green onions and serve.</mutableString>
+4. Finally, add the cooked and drained pasta and cooked chicken back to the skillet. Stir until everything is evenly combined and coated in creamy sauce. Top with sliced green onions and serve.</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1363,10 +1363,10 @@ While waiting for the pasta to cook, heat 1 Tbsp cooking oil in a large skillet 
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Umf-z1-DbL">
                                 <frame key="frameInset" minX="16" minY="114" width="343" height="502"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">1. Cut the sun dried tomatoes into small pieces and set aside. Mince the garlic and sauté it with butter in a deep skillet over medium heat for 1-2 minutes, or just until it's soft and fragrant (don't let it brown).
+                                <string key="text">1. Cut the sun dried tomatoes into small pieces and set aside. Mince the garlic and sauté it with butter in a deep skillet over medium heat for 1-2 minutes, or just until it's soft and fragrant (don't let it brown).
 2. Add the chicken broth, milk, fettuccine (I like to break it in half first), sun dried tomato pieces, and a healthy dose of freshly cracked pepper (15-20 cranks of a pepper mill) to the skillet. Make sure the pasta is submerged below the liquid.
 3. Place a lid on the pasta and allow the liquid in the skillet to come to a boil. Once it reaches a boil, give it a quick stir to make sure the pasta is not stuck to the bottom. Return the lid to the top, turn the heat down to low (or just above low), and let it simmer for about 10-12 minutes, or until the pasta is tender. Stir briefly every 4-5 minutes as it simmers to keep the pasta from sticking to the bottom of the skillet.
-4. If the pasta is still very soupy at that point, remove the lid and let it simmer for 3-5 minutes more, or until the sauce has reduced and thickened slightly. Once thickened, sprinkle the Parmesan over top and serve. The sauce will continue to thicken after the pasta is removed from the heat.</mutableString>
+4. If the pasta is still very soupy at that point, remove the lid and let it simmer for 3-5 minutes more, or until the sauce has reduced and thickened slightly. Once thickened, sprinkle the Parmesan over top and serve. The sauce will continue to thicken after the pasta is removed from the heat.</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1531,7 +1531,7 @@ N/A</string>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pwf-sJ-uoO">
                                 <frame key="frameInset" minX="16" minY="114" width="343" height="533"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">BLACKENED SEASONING:
+                                <string key="text">BLACKENED SEASONING:
 
 • 2 tsp paprika (smoked or sweet) $0.20
 • ½ tsp garlic powder $0.03
@@ -1551,7 +1551,7 @@ FOR THE PASTA:
 • 1 (15 oz.) can fire roasted tomatoes $1.39
 • 1 oz. cream cheese $0.25
 • 12 oz. fettuccine $0.88
-• 3 whole green onions $0.28</mutableString>
+• 3 whole green onions $0.28</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1586,7 +1586,7 @@ FOR THE PASTA:
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fzc-a5-YX2">
                                 <frame key="frameInset" minX="16" minY="114" width="343" height="463"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">• ½ lb. penne pasta $0.89
+                                <string key="text">• ½ lb. penne pasta $0.89
 • 1 small onion $0.25
 • 2 cloves garlic $0.16
 • 1 Tbsp olive oil $0.16
@@ -1599,7 +1599,7 @@ FOR THE PASTA:
 • 2 Tbsp tomato paste $0.11
 • 2 oz. cream cheese $0.48
 • ¼ cup grated Parmesan $0.42
-• ½ (9 oz.) bag fresh spinach $0.50</mutableString>
+• ½ (9 oz.) bag fresh spinach $0.50</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1634,11 +1634,11 @@ FOR THE PASTA:
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qpM-CH-Lza">
                                 <frame key="frameInset" minX="16" minY="114" width="343" height="533"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">1. Bring a large pot of water to a boil over high heat. Add the pasta and cook until tender (7-10) minutes. Drain the pasta in a colander.
+                                <string key="text">1. Bring a large pot of water to a boil over high heat. Add the pasta and cook until tender (7-10) minutes. Drain the pasta in a colander.
 2. While waiting for the pasta to cook, dice the onion and mince the garlic. Cook both in a large skillet with the olive oil over medium-low heat until softened and transparent (about 5 minutes).
 3. Add the diced tomatoes (with juices), oregano, basil, red pepper flakes, salt, and some freshly cracked pepper to the skillet with the onions and garlic. Stir to combine. Add the tomato paste and a ½ cup of water to the skillet and stir until the tomato paste is dissolved into the sauce.
 4. Turn the heat down to low. Cut the cream cheese into a few pieces and then add them to the skillet with the tomato sauce. Use a whisk to stir the sauce until the cream cheese has fully melted in and the sauce is creamy. Add half of the Parmesan to the skillet and whisk until it is melted in. Add the remainder of the parmesan and whisk until melted in again.
-5. Add the fresh spinach and gently stir it into the sauce until it has wilted (3-5 minutes). Add the pasta and stir until it is well coated in the creamy tomato sauce. Taste and adjust the salt and pepper as needed. Serve warm.</mutableString>
+5. Add the fresh spinach and gently stir it into the sauce until it has wilted (3-5 minutes). Add the pasta and stir until it is well coated in the creamy tomato sauce. Taste and adjust the salt and pepper as needed. Serve warm.</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1673,7 +1673,7 @@ FOR THE PASTA:
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dcr-Q4-8Ow">
                                 <frame key="frameInset" minX="16" minY="114" width="343" height="463"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">• 2 Tbsp olive oil $0.32
+                                <string key="text">• 2 Tbsp olive oil $0.32
 • 2-3 links Italian sausage $1.99
 • 2 cloves garlic $0.16
 • 1 small onion $0.52
@@ -1685,7 +1685,7 @@ FOR THE PASTA:
 • 1 lb. rigatoni $1.89
 • ¼ cup parmesan $0.41
 • handful fresh parsley (optional) $0.23
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1720,11 +1720,11 @@ FOR THE PASTA:
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C2h-KF-Ea7">
                                 <frame key="frameInset" minX="16" minY="114" width="343" height="533"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">1. Add the olive oil and sausage links to a large pot and cook over medium heat until they are browned on the outside and firm enough to slice into rounds. Remove the sausage from the pot with tongs, slice into rounds, then return them to the pot and cook for a few minutes more, or until fully browned.
+                                <string key="text">1. Add the olive oil and sausage links to a large pot and cook over medium heat until they are browned on the outside and firm enough to slice into rounds. Remove the sausage from the pot with tongs, slice into rounds, then return them to the pot and cook for a few minutes more, or until fully browned.
 2. While the sausage is cooking, slice or mince the garlic and slice or dice the onion (depending on how big you want your pieces). Slice the mushrooms.
 3. Once the sausage is browned, add the crushed tomatoes, onion, garlic, mushrooms, basil, and oregano to the pot. Stir to combine and to dissolve any browned bits off the bottom of the pot.
 4. Add the vegetable broth and pasta, then stir to combine. Place a lid on the pot, turn the heat up to high, and bring it to a rapid boil. As soon as it reaches a full boil, give it a stir, replace the lid, turn the heat down to low. Let the pot simmer on low for 15 minutes. Stir it every five minutes or so while it's simmering. Make sure it's simmering (bubbling) the whole time. If it is not, turn the heat up slightly.
-5. After 15 minutes of simmering, the pasta should be tender and most of the liquid should be absorbed. If there is still too much liquid, let it simmer without a lid for a couple more minutes. Stir in the parmesan and top with fresh chopped parsley, if desired.</mutableString>
+5. After 15 minutes of simmering, the pasta should be tender and most of the liquid should be absorbed. If there is still too much liquid, let it simmer without a lid for a couple more minutes. Stir in the parmesan and top with fresh chopped parsley, if desired.</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1759,12 +1759,12 @@ FOR THE PASTA:
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xkq-AU-02S">
                                 <frame key="frameInset" minX="16" minY="114" width="343" height="533"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">1. Combine the herbs and spices for the blackened seasoning in a bowl. Slice the chicken breast into very thin, two inch long strips. Place the chicken strips in a second bowl, pour half of the blackened seasoning over top and toss the chicken to coat in the spices.
+                                <string key="text">1. Combine the herbs and spices for the blackened seasoning in a bowl. Slice the chicken breast into very thin, two inch long strips. Place the chicken strips in a second bowl, pour half of the blackened seasoning over top and toss the chicken to coat in the spices.
 2. Prepare a large pot of water for the pasta. Bring it to a boil over high heat and then add the pasta. Cook the pasta until tender and then drain in a colander.
 3. Meanwhile, thinly slice the bell peppers and onion. In a large skillet, melt the butter over medium heat. Once the skillet is hot and the butter is melted, add the chicken and sauté until cooked through. Remove the cooked chicken from the skillet, add the sliced vegetables, and sauté until they are tender and slightly wilted. Remove the vegetables from the skillet.
 4. Turn the heat under the skillet down to medium low. Add the can of fire roasted tomatoes and the second half of the blackened seasoning. Cut the cream cheese into small pieces and add it to the skillet. Whisk the mixture until the cream cheese has melted into the tomatoes and created a creamy sauce.
 5. Add the cooked chicken and vegetables back to the skillet with the sauce and stir to combine. If your skillet is extra large, add the cooked pasta to the skillet and toss to combine with the chicken, vegetables, and sauce. If your skillet is smaller, you can add the drained pasta back to the large pot it was cooked in (with the heat turned off), then add the chicken, vegetables, and sauce to the pot and stir to combine.
-6. Slice the green onions and sprinkle over top before serving.</mutableString>
+6. Slice the green onions and sprinkle over top before serving.</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="13"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -2037,11 +2037,11 @@ Thank you Beth for all the great work you're doing and I hope you have no issues
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yon-SJ-xL3">
                                 <frame key="frameInset" minX="16" minY="122" width="343" height="502"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">1. Cut the bacon across the strips into one-inch sections. Sauté the bacon in a large skillet until it is brown and crispy (no extra fat needed). Carefully pour the fat off into a bowl, leaving about one tablespoon in the skillet.
+                                <string key="text">1. Cut the bacon across the strips into one-inch sections. Sauté the bacon in a large skillet until it is brown and crispy (no extra fat needed). Carefully pour the fat off into a bowl, leaving about one tablespoon in the skillet.
 2. While the bacon cooks, dice the onion. Once the bacon fat is drained from the skillet, add the diced onions and sauté until they are soft and transparent. Allow the moisture from the onions to dissolve some of the browned bits off of the bottom of the skillet.
 3. Add two cups of chicken broth to the skillet and dissolve off any remaining browned bits of bacon drippings from the bottom of the skillet.
 4. Finally, add the pasta to the skillet, place a lid on top, and let the skillet come to a boil over high heat. Once it reaches a boil, turn the heat down to low and let simmer for 15 minutes. Give the skillet a quick stir to loosen the pasta from the bottom every five minutes or so, replacing the lid quickly each time. After 15 minutes the pasta should be tender and most of the broth absorbed. There should be a little bit of thick, saucy broth remaining in the bottom of the skillet.
-5. Add the fresh spinach to the skillet and stir until it has wilted into the pasta. Turn off the heat, sprinkle the Parmesan over top, stir to combine, and then serve.</mutableString>
+5. Add the fresh spinach to the skillet and stir until it has wilted into the pasta. Turn off the heat, sprinkle the Parmesan over top, stir to combine, and then serve.</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -2054,10 +2054,10 @@ Thank you Beth for all the great work you're doing and I hope you have no issues
             </objects>
             <point key="canvasLocation" x="1076" y="-1270"/>
         </scene>
-        <!--View Controller-->
+        <!--Corner Radius-->
         <scene sceneID="Cki-7d-9q0">
             <objects>
-                <viewController id="EXF-Lf-Ec6" sceneMemberID="viewController">
+                <viewController id="EXF-Lf-Ec6" customClass="CornerRadius" customModule="Pasta_Passion" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ZBs-Zl-TPU"/>
                         <viewControllerLayoutGuide type="bottom" id="OOB-gb-HNq"/>
@@ -2114,6 +2114,9 @@ N/A</string>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="baconAndSpinashPastaWithParmesanImg" destination="QgW-PF-ONd" id="EoN-z1-neZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1pP-hq-iQ2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2141,7 +2144,7 @@ N/A</string>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sTG-RC-cdq">
                                 <frame key="frameInset" minX="16" minY="122" width="343" height="463"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">• 2 cloves garlic $0.16
+                                <string key="text">• 2 cloves garlic $0.16
 • 1 Tbsp butter $0.13
 • 1 cup pumpkin purée $0.78
 • 1 cup chicken broth* $0.12
@@ -2150,7 +2153,7 @@ N/A</string>
 • Pinch cayenne pepper $0.02
 • Freshly cracked black pepper $0.05
 • 2 Tbsp half &amp; half or cream $0.19
-• 8 oz. pasta $0.70</mutableString>
+• 8 oz. pasta $0.70</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
